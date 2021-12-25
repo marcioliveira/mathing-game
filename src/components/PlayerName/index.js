@@ -1,9 +1,9 @@
 import "./style.css";
 
-function PlayerNamme(content) {
-  return `
+function PlayerName(content) {
+  return /*html*/ `
         <p class="player-name">${content}</p>    
     `;
 }
 
-export default PlayerNamme;
+export default PlayerName;
