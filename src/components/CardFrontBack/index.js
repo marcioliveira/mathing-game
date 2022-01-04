@@ -1,7 +1,7 @@
 import CardGame from "../CardGame";
 import "./style.css";
 
-function CardFrontBack() {
+function CardFrontBack(icon, altIcon) {
   //criamos o evento de click usando o namespace
   //e deixamos guardado no nosso componente
   window.cardFrontBack = {};
@@ -20,7 +20,7 @@ function CardFrontBack() {
             ${CardGame()}
             </div>
             <div class="card -back">
-            ${CardGame("javascript", "Logo do JavaScript")}
+            ${CardGame(icon, altIcon)}
             </div>
         </article>
     `;
