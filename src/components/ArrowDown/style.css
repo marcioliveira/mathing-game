@@ -1,0 +1,13 @@
+.arrow-down {
+  position: absolute;
+  top: 4px;
+  transform: translate(-44px);
+  transition: transform 200ms ease-in-out;
+}
+
+/* O colchete é uma forma de fazer seletores baseados em atributos.
+   Se for igual a 2, vai mudar o transform para o player2*/
+
+.arrow-down[data-currentPlayer="2"] {
+  transform: translate(44px);
+}
